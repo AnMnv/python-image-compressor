@@ -3,6 +3,13 @@
 Requirements:
 ```pip install Pillow```
 
+
+> [!IMPORTANT]
+> compressor_v1 -- a version of the code that recursively goes through all folders in the current directory, compresses images and overwrites them.
+
+> [!IMPORTANT]
+> compressor -- current version of the code iterates through all image files in a given directory, compresses them to a target size, and saves them in an output folder. It reduces image dimensions if needed and adjusts the quality to achieve compression while maintaining a minimum threshold for quality.
+
 Just place all files (.png, .jpg, .jpeg) that you want to compress nearby the ```compressor.py``` and run it.
 
 | 1.66 Mb  | 156 Kb  |
