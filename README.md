@@ -3,6 +3,8 @@
 Requirements:
 ```pip install Pillow```
 
+> [!IMPORTANT]
+> compressor_v2_async -- a version of the code that has all previous features + asynchronously processing with the asyncio library + progress bar :).
 
 > [!IMPORTANT]
 > compressor_v1 -- a version of the code that recursively goes through all folders in the current directory, compresses images and overwrites them.
